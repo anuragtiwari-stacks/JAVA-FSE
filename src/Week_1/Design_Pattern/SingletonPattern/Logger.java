@@ -1,14 +1,22 @@
-public class Logger {
+package Week_1.Design_Pattern.SingletonPattern;
+
+public class Logger
+{
     private static Logger instance;
-    private Logger() {
+    private Logger()
+    {
         System.out.println("Logger Instance Created");
     }
-    public static Logger getInstance() {
-        if (instance == null) {
+
+    public static Logger getInstance()
+    {
+        if (instance == null)
+        {
             instance = new Logger();
         }
         return instance;
     }
+
     public void log(String message) {
         System.out.println("LOG: " + message);
     }
