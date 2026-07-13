@@ -1,5 +1,3 @@
-# 📚 Week 1
-
 This directory contains the learning materials, hands-on exercises, and coding implementations completed during **Week 1** of the **Cognizant Digital Nurture 5.0 – Java Full Stack Engineer (FSE)** program.
 
 ## 📂 Topics Covered
